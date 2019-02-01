@@ -14,7 +14,7 @@ const api = new GhostContentAPI({
 })
 
 api.posts
-      .browse({include: 'tags,authors'})
+      .browse({include: 'tags,authors', limit: 'all'})
       .then(async (posts) => {
           // console.log(posts[0])
           posts.map(async (post) => {
