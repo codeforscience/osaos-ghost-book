@@ -1,0 +1,6 @@
+.dat
+node_modules
+bundles
+content
+.key
+package-lock.json
